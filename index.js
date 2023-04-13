@@ -5,6 +5,8 @@ const app=require('./src/app');
 const cloudinary=require('cloudinary');
 const cors = require('cors');
 dotenv.config({path:'config/config.env'});
+
+
 app.use(cors());
 const server=http.createServer(app);
 
